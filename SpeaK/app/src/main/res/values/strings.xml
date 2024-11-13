@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ImagePro</string>
+
+    //Headings
+    <string name="heading_one"> </string>
+    <string name="heading_two">Real-time recognition</string>
+    <string name="heading_three">Simply tap on Add</string>
+    <string name="heading_fourth">Yes! It can "Speak"</string>
+    <string name="heading_fifth"> </string>
+
+    //Description
+    <string name="desc_one"> Do not worry, our app is fairly easy to use. Just start by tapping the Begin button!</string>
+    <string name="desc_two">This is the message box where the recognized sign will be displayed.</string>
+    <string name="desc_three">Recognized sign will be displayed in the message box.</string>
+    <string name="desc_fourth">After the text is added you can tap the speech button to hear the message.</string>
+    <string name="desc_fifth">Just tap the clear button to delete the added text.</string>
+
+</resources>

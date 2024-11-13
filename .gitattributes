@@ -1,0 +1,2 @@
+*.apk filter=lfs diff=lfs merge=lfs -text
+Speak/ filter=lfs diff=lfs merge=lfs -text

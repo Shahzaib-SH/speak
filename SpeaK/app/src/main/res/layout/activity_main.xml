@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+
+    <!--        <androidx.cardview.widget.CardView-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:foregroundGravity="center"-->
+    <!--            android:layout_height="70dp"-->
+
+    <!--            android:layout_gravity="center"-->
+    <!--            android:layout_marginTop="75dp"-->
+    <!--            app:cardCornerRadius="6dp"-->
+    <!--            android:background="@android:color/transparent"-->
+    <!--            app:cardBackgroundColor="@android:color/transparent"-->
+    <!--            app:cardElevation="3dp"-->
+
+    <!--            >-->
+
+
+    <!--     </androidx.cardview.widget.CardView>-->
+
+    <ImageView
+        android:id="@+id/sign_main"
+        android:layout_width="411dp"
+        android:layout_height="363dp"
+        android:layout_marginTop="76dp"
+        android:src="@drawable/sign"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.642"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sign_main"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/poppins_bold"
+        android:layout_marginBottom="20dp"
+        android:text="Welcome to SpeaK"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:layout_marginTop="80dp"
+        android:textSize="33dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="543dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/camera_button"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/text"
+        android:layout_centerVertical="true"
+        android:layout_centerInParent="true"
+
+        android:background="@drawable/custom_button"
+        android:elevation="100dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Begin"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="617dp" />
+
+    <!--    <Button-->
+    <!--        android:id="@+id/stt_btn"-->
+    <!--        android:text="Word"-->
+    <!--        android:textColor="@color/black"-->
+    <!--        android:visibility="visible"-->
+    <!--        android:layout_width="100dp"-->
+    <!--        android:layout_height="50dp"-->
+    <!--        android:layout_marginLeft="10dp"-->
+    <!--        android:layout_alignParentBottom="true"-->
+
+    <!--        android:layout_toRightOf="@id/camera_button" />-->
+
+
+</RelativeLayout>
